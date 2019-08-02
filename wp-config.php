@@ -30,10 +30,10 @@ if (file_exists(dirname(__FILE__) . '/localconfig.php')) {
     define('FS_METHOD','direct');
 } else {
     // Live database settings
-    define( 'DB_NAME', 'kilic_dk' );
-    define( 'DB_USER', 'kilic_dk' );
-    define( 'DB_PASSWORD', '2Bin10yili' );
-    define( 'DB_HOST', 'kilic.dk.mysql' );  
+    define( 'DB_NAME', 'xxxxxxx' );
+    define( 'DB_USER', 'xxxxxxx' );
+    define( 'DB_PASSWORD', 'xxxxxxxx' );
+    define( 'DB_HOST', 'xxxxxxx' );  
 }
 
 /** Database Charset to use in creating database tables. */
