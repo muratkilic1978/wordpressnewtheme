@@ -16,17 +16,40 @@
 //myFirstFunction();
 
 
-function greetings($name, $color) {
-    echo "<p>Hi, my name is $name and my favorite color is <font size='4' color='$color'>$color</font></p>";
+//function greetings($name, $color) {
+//    echo "<p>Hi, my name is $name and my favorite color is <font size='4' color='$color'>$color</font></p>";
+//}
+//
+//greetings("Silvia","darkred");
+//
+//greetings("David","purple");
+
+$names = array('Brad', 'Jennifer', 'Patrick', 'David', 'Kevin');
+
+//$count = 1;
+//while($count <= 100) {
+//    echo "<li>$count</li>";
+//    $count = $count +1;
+//}
+//$count = 0;
+//while($count < $names.length) {
+//    echo "<li>Hi, my name is $names[$count];</li>";
+//        $count++;
+//}
+
+foreach ($names as $index)
+{
+    echo "$index <br>";
 }
-
-greetings("Silvia","darkred");
-
-greetings("David","purple");
-
-
 ?>
 
+<!--
+<p>Hi, my name is <?php #echo $names[0]; ?> </p>
+<p>Hi, my name is <?php #echo $names[1]; ?> </p>
+<p>Hi, my name is <?php #echo $names[2]; ?> </p>
+<p>Hi, my name is <?php #echo $names[3]; ?> </p>
+-->
 
-<h1><?php bloginfo('name'); ?></h1>
-<p><?php bloginfo('description'); ?></p>
+
+
+
