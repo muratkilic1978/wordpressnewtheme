@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?php  ?>">
+<html lang="en">
 <head>
     <?php wp_head(); ?>
 </head>
