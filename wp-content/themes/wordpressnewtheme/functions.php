@@ -10,7 +10,17 @@ function custom_theme_files() {
     wp_enqueue_style('custom-google-fonts','https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
 }
 
-
 add_action('wp_enqueue_scripts', 'custom_theme_files');
+
+function custom_theme_features() {
+    
+    add_theme_support('title-tag');
+}
+
+
+add_action('after_setup_theme', 'custom_theme_features');
+
+
+
 
 
