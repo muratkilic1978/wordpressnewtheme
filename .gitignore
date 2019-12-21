@@ -1,7 +1,7 @@
 # WordPress config file
 wp-config.php
 
-# OSX files
+# OSX filesn
 .DS_Store
 Thumbs.db
 .cache
